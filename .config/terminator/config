@@ -1,8 +1,19 @@
 [global_config]
+  borderless = True
+  title_use_system_font = False
 [keybindings]
 [profiles]
   [[default]]
-    cursor_color = "#aaaaaa"
+    visible_bell = True
+    background_color = "#1e1e28"
+    background_darkness = 0.78
+    background_type = transparent
+    cursor_color = "#b1e3ad"
+    font = Liga SFMono Nerd Font 14
+    foreground_color = "#dadae8"
+    show_titlebar = False
+    palette = "#6e6c7e:#e38c8f:#b1e3ad:#ebddaa:#a4b9ef:#c6aae8:#e5b4e2:#dadae8:#6e6c7e:#e38c8f:#b1e3ad:#ebddaa:#a4b9ef:#c6aae8:#e5b4e2:#dadae8"
+    use_system_font = False
 [layouts]
   [[default]]
     [[[window0]]]
